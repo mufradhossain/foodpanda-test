@@ -1,0 +1,9 @@
+models:
+  - name: dbt
+    description: >
+      Answer to Find MAX of Total GMV by country
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - max_gmv
+        description: max GMV calculated from total of each country.
