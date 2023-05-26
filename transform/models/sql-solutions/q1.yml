@@ -1,0 +1,11 @@
+models:
+  - name: q1
+    description: >
+      Answer to Find the Total GMV by country
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - country_name
+        description: Name of country.
+      - total_gmv
+        description: GMV calculated for each country.

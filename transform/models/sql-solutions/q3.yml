@@ -1,0 +1,13 @@
+models:
+  - name: q3
+    description: >
+      Answer to Find the top active vendor by GMV in each country
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of Vendor.
+      - total_gmv
+        descroption: GMV calculated for each vendor.

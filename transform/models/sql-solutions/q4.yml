@@ -1,0 +1,15 @@
+models:
+  - name: q4
+    description: >
+      Answer to Find the top 2 vendors per country, in each year available in the dataset
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - year
+        description: Year of calculation.
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of Vendor.
+      - total_gmv
+        descroption: GMV calculated for each vendor.

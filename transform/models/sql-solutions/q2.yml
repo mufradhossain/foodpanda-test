@@ -1,0 +1,13 @@
+models:
+  - name: q2
+    description: >
+      Answer to Calculate the GMV of vendors in Taiwan and order the result their customer count
+    meta:
+      owner: candidate@foodpanda.com
+    columns:
+      - vendor_name
+        description: Name of Vendor.
+      - customer_count
+        description: Customer calculated for each vendor.
+      - total_gmv
+        descroption: GMV calculated for each vendor.
